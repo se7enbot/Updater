@@ -353,7 +353,7 @@
     "video": "",
     "automation_url": "shortcuts://run-shortcut?name=京东-炸年兽&input=text&text=task",
     "image": "https://gitee.com/leecogit/Updater/raw/master/image/jd_nian.png",
-    "url": "https://gitee.com/leecogit/Updater/raw/master/jd.json",
+    "url": "https://gitee.com/leecogit/Updater/raw/test/jd.json",
     "tip": {
       "hongbao": "",
       "hot": "🔥 年货节活动中...",
