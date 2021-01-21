@@ -96,6 +96,10 @@
       "nian_killCoupon": {
         "url": "https://api.m.jd.com/client.action?functionId=nian_killCoupon",
         "body": "functionId=nian_killCoupon&body={}&client=wh5&clientVersion=1.0.0"
+      },
+      "nian_doShopLottery": {
+        "url": "https://api.m.jd.com/client.action?functionId=nian_doShopLottery",
+        "body": "functionId=nian_doShopLottery&body={}&client=wh5&clientVersion=1.0.0"
       }
     },
     "task": [
