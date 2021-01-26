@@ -110,6 +110,24 @@
       return body
     }
 
+    function killCoupon(secretp, skuId) {
+      let temp = {
+        "skuId": skuId,
+        "rnd": getRnd(),
+        "inviteId": "-1",
+        "stealId": "-1"
+      }
+      const extraData = {
+        "jj": 6,
+        "buttonid": "jmdd-react-smash_0",
+        "sceneid": "homePageh5",
+        "appid": '50073'
+      }
+      let body = encode(temp, secretp, extraData);
+      body['skuId'] = skuId
+      return body
+    }
+
     function encode(data, secretp, extraData) {
       const temp = {
         "extraData": extraData,
